@@ -1,0 +1,108 @@
+
+
+// function add($nr1, $nr2, $nr3, $nr4)
+// {
+//     return $nr1 + $nr2 / $nr3 * $nr4;
+// }
+
+// echo add(5,73,2,6);
+
+
+
+
+// $maträtter = ["pizza", "sushi", "bbq"];
+
+// foreach($maträtter as mat)
+// {
+//     echo mat . "<br>";
+// }
+
+
+// for ($i = 1; $i <= 5; $i++)
+// {
+//     echo $i;
+// }
+
+
+// $colors = ["red", "green", "purple"];
+// foreach ($colors as $color)
+// {
+//     echo $color . "<br>";
+// }
+
+
+// $color = ["red", "green", "pink"];
+// echo $color[0];
+
+
+// $person = ["name" => "Alice", "age" => 25];
+// echo $person["age"];
+
+// $score = 95;
+
+// if ($score >= 90)
+// {
+//     echo "you got an A";
+// }
+// elseif ($score >= 80)
+// {
+//     echo "you got an B";
+// }
+// else
+// {
+//     echo "you got an c";
+// }
+
+
+// $a = 5;
+// $b = 10;
+
+// echo $a + $b;
+
+
+
+
+// $greeting = "Hello Jason you are amazing!";
+
+// echo ($greeting . "<br>");
+// echo str_replace("amazing!", "shit!", $greeting);
+
+
+
+// $name = "Jason";
+
+
+
+
+// echo $greeting . " " . $name;
+// echo strtoupper($name);
+
+
+// echo var_dump((bool)("hello"));
+
+
+    // $text = "7 apples";
+    // $result = (int)$text + 3;
+    // echo $result;
+
+
+
+// echo "ddd";
+// $name = "Fukkkkkkkk";//string
+// $age = 25;   //int
+// $height = 1.66;
+// $isStudent = true;
+
+// echo var_dump($name);
+
+// $yoo = "123333";
+// $asInt = (bool)$yoo;
+// echo $asInt;
+
+// $number = "4"; //type juggling
+// $result = 5 + $number;
+// echo $result
+
+
+
+?>

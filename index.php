@@ -1,0 +1,41 @@
+<form method = "get">
+    <input name = "username" placeholder = "Enter your name"><br>
+    <textarea name = "comment" placeholder = "Write comment"></textarea><br>
+    <button type = "submit">send</button><br>
+</form>
+
+<form method = "post">
+    <input name = "username" placeholder = "Enter your name"><br>
+    <textarea name = "comment" placeholder = "Write comment"></textarea><br>
+    <button type = "submit">send</button><br>
+</form>
+
+
+<pre>
+<?php
+
+
+echo "==== POST ====";
+print_r($_POST);
+
+
+echo "==== GET ====";
+print_r($_GET);
+
+if ($_SERVER["REQUEST_METHOD"] == "POST")
+{
+$username = $_POST["username"];
+$comment = $_POST["comment"];
+
+echo "your name:" . htmlspecialchars($username) . "<br>";
+echo "your comment:" .htmlspecialchars($comment);
+}
+
+$name = $_POST['name']; //tar värde från input name -> metod
+$name = $_GET['name'];
+$name = $_REQUEST['name'];
+$method = $_SERVER['REQUEST_METHOD'];
+
+
+?>
+<pre>
